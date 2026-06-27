@@ -1,0 +1,8 @@
+{
+  "lorebookDir": "./SillyTavern/data/default-user/worlds",
+  "lumimaidUrl": "http://127.0.0.1:5001",
+  "qwenUrl": "http://127.0.0.1:5002",
+  "port": 3080,
+  "backupDir": "./backups",
+  "requireManualApply": true
+}
