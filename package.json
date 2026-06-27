@@ -1,10 +1,10 @@
 {
   "name": "sillytavern-archivist",
   "version": "0.1.0",
-  "description": "Archivist service for SillyTavern: propose and apply lorebook updates (manual approval only)",
+  "description": "Archivist service for SillyTavern: propose and apply lorebook updates (manual apply only)",
   "main": "plugin/backend/index.js",
   "scripts": {
-    "start": "node plugin/backend/index.js"
+    "start": "node index.js"
   },
   "author": "speedyrudolf",
   "license": "MIT",
