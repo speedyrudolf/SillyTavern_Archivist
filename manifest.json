@@ -1,0 +1,7 @@
+{
+  "name": "sillytavern-archivist",
+  "version": "0.1.0",
+  "description": "Archivist plugin for SillyTavern — proposes lorebook updates (manual apply only).",
+  "author": "speedyrudolf",
+  "main": "index.js"
+}
