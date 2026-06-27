@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Archivist UI</title>
+  <link rel="stylesheet" href="archivist_panel.css">
+</head>
+<body>
+  <div id="app">
+    <h2>Archivist</h2>
+    <div>
+      <label>Lorebook file: <select id="lorebookFile"></select></label>
+      <button id="refreshLorebooks">Refresh</button>
+    </div>
+    <div>
+      <h3>Scan</h3>
+      <textarea id="scanMessages" placeholder="Paste recent messages JSON here (array of {speaker,text})" rows="6" style="width:100%"></textarea>
+      <button id="scanBtn">Analyze</button>
+    </div>
+    <div>
+      <h3>Pending</h3>
+      <div id="pendingList"></div>
+      <button id="applyBtn">Apply Accepted Changes (manual)</button>
+    </div>
+  </div>
+  <script src="archivist_panel.js"></script>
+</body>
+</html>
